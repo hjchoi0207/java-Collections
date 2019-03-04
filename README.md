@@ -1,5 +1,5 @@
 ## Collections : list와 map
-많은 양의 데이터를 관리하기 위해 java에서는 주로 list와 map을 이용하여 관리한다.
+많은 양의 데이터를 관리하기 위해 java에서는 주로 list와 map을 이용하여 관리한다. (물론 List와 Map을 제외하고도 java에는 데이터를 관리하기 위한 다양한 요소들이 있다)
 **list는 data들을 Index를 이용하여 관리하고 map은 key를 이용해서 관리한다는 것이 가장 큰 차이점이다**
 
 ### 1. Arraylist
@@ -75,4 +75,4 @@ b = map.containsValue("World");
 System.out.println("map.containsValue(\"World\"); : " + b); //true
 ```
 
-- List와 Map을 제외하고도 java에는 데이터를 관리하기 위한 다양한 요소들이 있다. List에서도 Vector 
+- List에서도 Vector와 LinkedList가 있지만 가장중요한 ArrayList와 Map의 Hashmap을 배웠다 둘 다 사용법은 비슷하지만 data관리에 Index와 key를 이용한다는것에 중점을두고 기본적인 data 추가,삭제,변경 사용법을 익히도록하자.
