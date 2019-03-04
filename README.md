@@ -75,4 +75,4 @@ b = map.containsValue("World");
 System.out.println("map.containsValue(\"World\"); : " + b); //true
 ```
 
-- List에서도 Vector와 LinkedList가 있지만 가장중요한 ArrayList와 Map의 Hashmap을 배웠다 둘 다 사용법은 비슷하지만 data관리에 Index와 key를 이용한다는것에 중점을두고 기본적인 data 추가,삭제,변경 사용법을 익히도록하자.
+- List에서도 Vector와 LinkedList가 있지만 가장중요한 ArrayList와 Map의 Hashmap을 배웠다 둘 다 사용법은 비슷하지만 data관리에 Index와 key를 이용한다는것에 중점을두고 기본적인 data 추가,삭제,변경 사용법을 익히도록하자. **그리고 Data중복은 가능하지만 key와 Index중복은 불가하다는 것을 명심하자**
