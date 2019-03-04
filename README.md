@@ -41,3 +41,38 @@ System.out.println("list : " + list);            //[Hello, C, World]
 boolean b = list.isEmpty();
 System.out.println("list.isEmpty() : " + b);     //true
 ```
+***
+### 2. Map
+```java
+import java.util.HashMap;
+```
+Map을 이용하기 위해서도 당연히 import가 필요하다.
+
+```java
+HashMap<Integer, String> map = new HashMap<Integer, String>(); // <key, data>
+System.out.println(map.size());
+```
+HashMap선언이며 왼쪽에는 Index와 같은 Key 오른쪽에는 data가 들어간다. 시작size는 당연히 0부터 시작한다.
+
+```java
+map.put(5, "Hello");
+map.put(6, "Java");
+map.put(7, "World");
+map.put(8, "!!!!");
+System.out.println("map : " + map);               //{5=Hello, 6=Java, 7=World, 8=!!!!}
+System.out.println("map.size() : " + map.size()); //4
+```
+Map은 list와 다르게 put을 이용하지만 크게 차이는 없다 이 때 만약 key가 충돌하면 기존요소는 삭제된다.
+```java
+map.put(6, "C");      //{5=Hello, 6=C, 7=World, 8=!!!!}
+```
+또한 ArrayList에서 기존에 사용하던 .remove(key) .get(key) .clear() 모두 사용가능하며 특정 key와 data의 존재유무도 알 수 있다.
+```java
+boolean b = map.containsKey(7);
+System.out.println("map.containsKey(7) : " + b);            //true
+		
+b = map.containsValue("World");
+System.out.println("map.containsValue(\"World\"); : " + b); //true
+```
+
+- List와 Map을 제외하고도 java에는 데이터를 관리하기 위한 다양한 요소들이 있다. List에서도 Vector 
