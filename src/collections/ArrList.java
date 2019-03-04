@@ -1,5 +1,5 @@
 package collections;
-import java.util.ArrayList;
+import java.util.ArrayList;//Data control by index
 
 public class ArrList {
 
