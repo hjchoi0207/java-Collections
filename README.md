@@ -66,7 +66,7 @@ Map은 list와 다르게 put을 이용하지만 크게 차이는 없다 이 때 
 ```java
 map.put(6, "C");      //{5=Hello, 6=C, 7=World, 8=!!!!}
 ```
-또한 ArrayList에서 기존에 사용하던 .remove(key) .get(key) .clear() 모두 사용가능하며 특정 key와 data의 존재유무도 알 수 있다.
+ArrayList에서 기존에 사용하던 .remove(key) .get(key) .clear() 모두 사용가능하며 특정 key와 data의 존재유무도 알 수 있다.
 ```java
 boolean b = map.containsKey(7);
 System.out.println("map.containsKey(7) : " + b);            //true
